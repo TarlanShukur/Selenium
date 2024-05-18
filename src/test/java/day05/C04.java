@@ -24,7 +24,6 @@ public class C04 {
 
         //Berlin'i relative locator ile locate edin
 //Relative locator'larin dogru calistigini test edin
-        //sayfayı kapatınız
 
         WebElement NYCWebElemenet = driver.findElement(By.id("pid3_thumb"));
         WebElement bayAreaWebelement= driver.findElement(By.cssSelector("#pid8_thumb"));
