@@ -22,8 +22,7 @@ public class C04 {
         //https://www.diemol.com/selenium-4-demo/relative-locators-demo.html adresine gidin
         driver.get("https://www.diemol.com/selenium-4-demo/relative-locators-demo.html");
 
-        //Berlin'i relative locator ile locate edin
-//Relative locator'larin dogru calistigini test edin
+
 
         WebElement NYCWebElemenet = driver.findElement(By.id("pid3_thumb"));
         WebElement bayAreaWebelement= driver.findElement(By.cssSelector("#pid8_thumb"));
